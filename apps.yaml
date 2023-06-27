@@ -1,0 +1,9 @@
+apps:
+  - name: Demo
+    externalUrl: "https://demo.your-public-dns-zone-here"
+    logoUrl: https://raw.githubusercontent.com/timja/azuread-application-proxy-apps-demo/main/demo.png
+    internalUrl: http://app-proxy-demo-vm.app-proxy-demo.local
+    userAssignmentRequired: false
+    tls:
+      key_vault_name: "your-key-vault-name-here"
+      name: "your-certificate-name-here"
